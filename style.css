@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  top: 0;
+  background-image: url(images/pexels-designecologist-1779487.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  color: aliceblue;
+  text-align: center;
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+}
+.container img {
+  height: 30vh;
+  width: 25%;
+}
+.container-1 {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+}
+.container-1 ul {
+  width: 100%;
+}
+.container-1 li {
+  display: inline-block;
+  padding: 10px;
+}
+.container-1 li:hover {
+  background-color: grey;
+  color: azure;
+  transition: 1s;
+  border-radius: 10px;
+}
