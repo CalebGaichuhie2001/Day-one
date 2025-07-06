@@ -13,10 +13,11 @@ body {
   flex-direction: row;
   gap: 20px; /* Add space between elements */
 }
-.input-group {
+.input-form {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-bottom: 1px;
 }
 h1 {
   text-align: center;
@@ -37,4 +38,10 @@ h1 {
   color: rgb(230, 225, 225);
   font-size: 1em;
   margin-bottom: 5px;
+}
+.agree {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 15px 0;
 }
