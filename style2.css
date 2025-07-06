@@ -16,8 +16,25 @@ body {
 .input-group {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 h1 {
   text-align: center;
   padding-top: 50px;
+}
+.gender {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.dob-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px 0;
+}
+.dob-group label {
+  color: rgb(230, 225, 225);
+  font-size: 1em;
+  margin-bottom: 5px;
 }
